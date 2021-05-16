@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Masonry/*.{h,m}'
 
+  s.resource = ['image/*.png']
+
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.osx.frameworks = 'Foundation', 'AppKit'
 
